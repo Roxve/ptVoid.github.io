@@ -11,11 +11,23 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: -27, -528, 255;
+    --background-start-rgb: -27, -528, 50;
     --background-end-rgb: 0, 0, 0;
   }
 }
 
+.navbar {
+  color: rgb(255,255,255);
+  background: linear-gradient(
+    transparent,
+    rgb(-27, -528, 30)
+  )
+  rgb(-27, -528, 40)
+}
+
+.button {
+  background: rgba(255, 0, 172, 0.200)
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
